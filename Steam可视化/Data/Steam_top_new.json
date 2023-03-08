@@ -1,0 +1,702 @@
+[
+  {
+    "Top": 1.0,
+    "name": "Counter-Strike:GlobalOffensive",
+    "current_players": 753749,
+    "peak_players": 1354248,
+    "hours_played": 584015658
+  },
+  {
+    "Top": 2.0,
+    "name": "Dota2",
+    "current_players": 326896,
+    "peak_players": 680746,
+    "hours_played": 291108567
+  },
+  {
+    "Top": 3.0,
+    "name": "ApexLegends",
+    "current_players": 263436,
+    "peak_players": 624473,
+    "hours_played": 185950616
+  },
+  {
+    "Top": 4.0,
+    "name": "PUBG:BATTLEGROUNDS",
+    "current_players": 213826,
+    "peak_players": 490332,
+    "hours_played": 160174430
+  },
+  {
+    "Top": 5.0,
+    "name": "LostArk",
+    "current_players": 164083,
+    "peak_players": 231166,
+    "hours_played": 121769372
+  },
+  {
+    "Top": 6.0,
+    "name": "Destiny2",
+    "current_players": 115153,
+    "peak_players": 316651,
+    "hours_played": 57282210
+  },
+  {
+    "Top": 7.0,
+    "name": "SonsOfTheForest",
+    "current_players": 82245,
+    "peak_players": 411804,
+    "hours_played": 32534940
+  },
+  {
+    "Top": 8.0,
+    "name": "WallpaperEngine",
+    "current_players": 79336,
+    "peak_players": 125998,
+    "hours_played": 53819706
+  },
+  {
+    "Top": 9.0,
+    "name": "HogwartsLegacy",
+    "current_players": 74147,
+    "peak_players": 527652,
+    "hours_played": 99420171
+  },
+  {
+    "Top": 10.0,
+    "name": "GrandTheftAutoV",
+    "current_players": 73895,
+    "peak_players": 174026,
+    "hours_played": 70034767
+  },
+  {
+    "Top": 11.0,
+    "name": "TeamFortress2",
+    "current_players": 72988,
+    "peak_players": 119399,
+    "hours_played": 66830947
+  },
+  {
+    "Top": 12.0,
+    "name": "CallofDuty\u00ae:ModernWarfare\u00aeII|Warzone\u21222.0",
+    "current_players": 68471,
+    "peak_players": 167640,
+    "hours_played": 69680121
+  },
+  {
+    "Top": 13.0,
+    "name": "NARAKA:BLADEPOINT",
+    "current_players": 59070,
+    "peak_players": 144657,
+    "hours_played": 36636194
+  },
+  {
+    "Top": 14.0,
+    "name": "Unturned",
+    "current_players": 57496,
+    "peak_players": 106499,
+    "hours_played": 44894079
+  },
+  {
+    "Top": 15.0,
+    "name": "CrabGame",
+    "current_players": 47722,
+    "peak_players": 51814,
+    "hours_played": 27767805
+  },
+  {
+    "Top": 16.0,
+    "name": "WarThunder",
+    "current_players": 44865,
+    "peak_players": 97939,
+    "hours_played": 43901317
+  },
+  {
+    "Top": 17.0,
+    "name": "Rust",
+    "current_players": 40807,
+    "peak_players": 167827,
+    "hours_played": 64123327
+  },
+  {
+    "Top": 18.0,
+    "name": "SidMeier'sCivilizationVI",
+    "current_players": 39421,
+    "peak_players": 81217,
+    "hours_played": 33313606
+  },
+  {
+    "Top": 19.0,
+    "name": "PAYDAY2",
+    "current_players": 37410,
+    "peak_players": 61917,
+    "hours_played": 25151830
+  },
+  {
+    "Top": 20.0,
+    "name": "GooseGooseDuck",
+    "current_players": 36083,
+    "peak_players": 353674,
+    "hours_played": 52969108
+  },
+  {
+    "Top": 21.0,
+    "name": "FootballManager2023",
+    "current_players": 35994,
+    "peak_players": 83244,
+    "hours_played": 35161869
+  },
+  {
+    "Top": 22.0,
+    "name": "ELDENRING",
+    "current_players": 34373,
+    "peak_players": 81740,
+    "hours_played": 36731143
+  },
+  {
+    "Top": 23.0,
+    "name": "Warframe",
+    "current_players": 33782,
+    "peak_players": 59850,
+    "hours_played": 30393050
+  },
+  {
+    "Top": 24.0,
+    "name": "MIR4",
+    "current_players": 33411,
+    "peak_players": 35786,
+    "hours_played": 24345108
+  },
+  {
+    "Top": 25.0,
+    "name": "ARK:SurvivalEvolved",
+    "current_players": 30085,
+    "peak_players": 83672,
+    "hours_played": 35845014
+  },
+  {
+    "Top": 26.0,
+    "name": "Yu-Gi-Oh!MasterDuel",
+    "current_players": 28127,
+    "peak_players": 72871,
+    "hours_played": 19154401
+  },
+  {
+    "Top": 27.0,
+    "name": "EASPORTS\u2122FIFA23",
+    "current_players": 26135,
+    "peak_players": 93430,
+    "hours_played": 35117357
+  },
+  {
+    "Top": 28.0,
+    "name": "StardewValley",
+    "current_players": 25558,
+    "peak_players": 56110,
+    "hours_played": 26466053
+  },
+  {
+    "Top": 29.0,
+    "name": "DayZ",
+    "current_players": 22287,
+    "peak_players": 60229,
+    "hours_played": 24673053
+  },
+  {
+    "Top": 30.0,
+    "name": "Spacewar",
+    "current_players": 22103,
+    "peak_players": 78049,
+    "hours_played": 16809848
+  },
+  {
+    "Top": 31.0,
+    "name": "TomClancy'sRainbowSixSiege",
+    "current_players": 22085,
+    "peak_players": 65006,
+    "hours_played": 30180459
+  },
+  {
+    "Top": 32.0,
+    "name": "DeadbyDaylight",
+    "current_players": 20982,
+    "peak_players": 48520,
+    "hours_played": 23397138
+  },
+  {
+    "Top": 33.0,
+    "name": "HeartsofIronIV",
+    "current_players": 20052,
+    "peak_players": 51686,
+    "hours_played": 21812010
+  },
+  {
+    "Top": 34.0,
+    "name": "NBA2K23",
+    "current_players": 19909,
+    "peak_players": 33864,
+    "hours_played": 13761309
+  },
+  {
+    "Top": 35.0,
+    "name": "Terraria",
+    "current_players": 19601,
+    "peak_players": 50167,
+    "hours_played": 23142611
+  },
+  {
+    "Top": 36.0,
+    "name": "RedDeadRedemption2",
+    "current_players": 18880,
+    "peak_players": 66221,
+    "hours_played": 23102305
+  },
+  {
+    "Top": 37.0,
+    "name": "ProjectZomboid",
+    "current_players": 18829,
+    "peak_players": 59562,
+    "hours_played": 27506939
+  },
+  {
+    "Top": 38.0,
+    "name": "TheSims\u21224",
+    "current_players": 16329,
+    "peak_players": 50489,
+    "hours_played": 21174407
+  },
+  {
+    "Top": 39.0,
+    "name": "BlackDesert",
+    "current_players": 16061,
+    "peak_players": 25637,
+    "hours_played": 12639369
+  },
+  {
+    "Top": 40.0,
+    "name": "Don'tStarveTogether",
+    "current_players": 15790,
+    "peak_players": 41482,
+    "hours_played": 13155898
+  },
+  {
+    "Top": 41.0,
+    "name": "\u96c0\u9b42\u9ebb\u5c06(MahjongSoul)",
+    "current_players": 14943,
+    "peak_players": 30146,
+    "hours_played": 8046439
+  },
+  {
+    "Top": 42.0,
+    "name": "Left4Dead2",
+    "current_players": 14843,
+    "peak_players": 41119,
+    "hours_played": 17199948
+  },
+  {
+    "Top": 43.0,
+    "name": "VRChat",
+    "current_players": 14822,
+    "peak_players": 37972,
+    "hours_played": 15516601
+  },
+  {
+    "Top": 44.0,
+    "name": "EuroTruckSimulator2",
+    "current_players": 14709,
+    "peak_players": 48492,
+    "hours_played": 16014247
+  },
+  {
+    "Top": 45.0,
+    "name": "Borderlands3",
+    "current_players": 14238,
+    "peak_players": 28124,
+    "hours_played": 5907412
+  },
+  {
+    "Top": 46.0,
+    "name": "LimbusCompany",
+    "current_players": 14191,
+    "peak_players": 23435,
+    "hours_played": 1206528
+  },
+  {
+    "Top": 47.0,
+    "name": "TotalWar:WARHAMMERIII",
+    "current_players": 14180,
+    "peak_players": 37527,
+    "hours_played": 14803098
+  },
+  {
+    "Top": 48.0,
+    "name": "Cities:Skylines",
+    "current_players": 14116,
+    "peak_players": 34225,
+    "hours_played": 14202123
+  },
+  {
+    "Top": 49.0,
+    "name": "RimWorld",
+    "current_players": 13957,
+    "peak_players": 30310,
+    "hours_played": 14550175
+  },
+  {
+    "Top": 50.0,
+    "name": "7DaystoDie",
+    "current_players": 13925,
+    "peak_players": 39872,
+    "hours_played": 16704059
+  },
+  {
+    "Top": 51.0,
+    "name": "MonsterHunter:World",
+    "current_players": 13185,
+    "peak_players": 32302,
+    "hours_played": 11159162
+  },
+  {
+    "Top": 52.0,
+    "name": "PathofExile",
+    "current_players": 13153,
+    "peak_players": 35314,
+    "hours_played": 15401737
+  },
+  {
+    "Top": 53.0,
+    "name": "TheElderScrollsV:SkyrimSpecialEdition",
+    "current_players": 13132,
+    "peak_players": 38842,
+    "hours_played": 16678149
+  },
+  {
+    "Top": 54.0,
+    "name": "Valheim",
+    "current_players": 12847,
+    "peak_players": 76747,
+    "hours_played": 24629483
+  },
+  {
+    "Top": 55.0,
+    "name": "NewWorld",
+    "current_players": 12480,
+    "peak_players": 32988,
+    "hours_played": 13892717
+  },
+  {
+    "Top": 56.0,
+    "name": "MONSTERHUNTERRISE",
+    "current_players": 12292,
+    "peak_players": 58792,
+    "hours_played": 14531472
+  },
+  {
+    "Top": 57.0,
+    "name": "Garry'sMod",
+    "current_players": 12044,
+    "peak_players": 43508,
+    "hours_played": 16506910
+  },
+  {
+    "Top": 58.0,
+    "name": "Mount&BladeII:Bannerlord",
+    "current_players": 11849,
+    "peak_players": 29633,
+    "hours_played": 12321561
+  },
+  {
+    "Top": 59.0,
+    "name": "tModLoader",
+    "current_players": 11691,
+    "peak_players": 28311,
+    "hours_played": 13374315
+  },
+  {
+    "Top": 60.0,
+    "name": "Battlefield\u2122V",
+    "current_players": 11651,
+    "peak_players": 36147,
+    "hours_played": 9209735
+  },
+  {
+    "Top": 61.0,
+    "name": "TheWitcher3:WildHunt",
+    "current_players": 11434,
+    "peak_players": 46046,
+    "hours_played": 14273249
+  },
+  {
+    "Top": 62.0,
+    "name": "FINALFANTASYXIVOnline",
+    "current_players": 11355,
+    "peak_players": 39958,
+    "hours_played": 17097327
+  },
+  {
+    "Top": 63.0,
+    "name": "Brotato",
+    "current_players": 11219,
+    "peak_players": 23877,
+    "hours_played": 6306979
+  },
+  {
+    "Top": 64.0,
+    "name": "SidMeier'sCivilizationV",
+    "current_players": 10987,
+    "peak_players": 24489,
+    "hours_played": 11544146
+  },
+  {
+    "Top": 65.0,
+    "name": "RocketLeague",
+    "current_players": 10972,
+    "peak_players": 50104,
+    "hours_played": 18948084
+  },
+  {
+    "Top": 66.0,
+    "name": "TheBindingofIsaac:Rebirth",
+    "current_players": 10709,
+    "peak_players": 21953,
+    "hours_played": 10846182
+  },
+  {
+    "Top": 67.0,
+    "name": "\u30d8\u30d6\u30f3\u30d0\u30fc\u30f3\u30ba\u30ec\u30c3\u30c9",
+    "current_players": 10445,
+    "peak_players": 20196,
+    "hours_played": 6091130
+  },
+  {
+    "Top": 68.0,
+    "name": "FarmingSimulator22",
+    "current_players": 10377,
+    "peak_players": 38132,
+    "hours_played": 12558535
+  },
+  {
+    "Top": 69.0,
+    "name": "Hunt:Showdown",
+    "current_players": 10298,
+    "peak_players": 27211,
+    "hours_played": 10463399
+  },
+  {
+    "Top": 70.0,
+    "name": "TheElderScrollsOnline",
+    "current_players": 10098,
+    "peak_players": 27763,
+    "hours_played": 11897130
+  },
+  {
+    "Top": 71.0,
+    "name": "EuropaUniversalisIV",
+    "current_players": 9983,
+    "peak_players": 23686,
+    "hours_played": 10640634
+  },
+  {
+    "Top": 72.0,
+    "name": "FootballManager2022",
+    "current_players": 9934,
+    "peak_players": 21427,
+    "hours_played": 9455299
+  },
+  {
+    "Top": 73.0,
+    "name": "TheForest",
+    "current_players": 9927,
+    "peak_players": 31864,
+    "hours_played": 9040070
+  },
+  {
+    "Top": 74.0,
+    "name": "AgeofEmpiresII:DefinitiveEdition",
+    "current_players": 9711,
+    "peak_players": 27279,
+    "hours_played": 11809275
+  },
+  {
+    "Top": 75.0,
+    "name": "Crossout",
+    "current_players": 9149,
+    "peak_players": 12091,
+    "hours_played": 7164475
+  },
+  {
+    "Top": 76.0,
+    "name": "Soundpad",
+    "current_players": 9132,
+    "peak_players": 20677,
+    "hours_played": 10186240
+  },
+  {
+    "Top": 77.0,
+    "name": "Fallout4",
+    "current_players": 9116,
+    "peak_players": 25698,
+    "hours_played": 11070553
+  },
+  {
+    "Top": 78.0,
+    "name": "Cyberpunk2077",
+    "current_players": 9028,
+    "peak_players": 29184,
+    "hours_played": 10990192
+  },
+  {
+    "Top": 79.0,
+    "name": "CompanyofHeroes3",
+    "current_players": 9008,
+    "peak_players": 30243,
+    "hours_played": 2428010
+  },
+  {
+    "Top": 80.0,
+    "name": "DyingLight",
+    "current_players": 8984,
+    "peak_players": 22185,
+    "hours_played": 5610241
+  },
+  {
+    "Top": 81.0,
+    "name": "Stellaris",
+    "current_players": 8909,
+    "peak_players": 20989,
+    "hours_played": 9794149
+  },
+  {
+    "Top": 82.0,
+    "name": "WorldofTanksBlitz",
+    "current_players": 8891,
+    "peak_players": 22339,
+    "hours_played": 8092315
+  },
+  {
+    "Top": 83.0,
+    "name": "BloonsTD6",
+    "current_players": 8532,
+    "peak_players": 21234,
+    "hours_played": 9296446
+  },
+  {
+    "Top": 84.0,
+    "name": "CookieClicker",
+    "current_players": 8138,
+    "peak_players": 11483,
+    "hours_played": 6922661
+  },
+  {
+    "Top": 85.0,
+    "name": "Paladins",
+    "current_players": 8107,
+    "peak_players": 13385,
+    "hours_played": 7226595
+  },
+  {
+    "Top": 86.0,
+    "name": "OCTOPATHTRAVELERII",
+    "current_players": 7983,
+    "peak_players": 16994,
+    "hours_played": 1205921
+  },
+  {
+    "Top": 87.0,
+    "name": "\u9b3c\u8c37\u516b\u8352TaleofImmortal",
+    "current_players": 7946,
+    "peak_players": 17485,
+    "hours_played": 4598479
+  },
+  {
+    "Top": 88.0,
+    "name": "CrusaderKingsIII",
+    "current_players": 7712,
+    "peak_players": 19375,
+    "hours_played": 8563950
+  },
+  {
+    "Top": 89.0,
+    "name": "Factorio",
+    "current_players": 7694,
+    "peak_players": 19829,
+    "hours_played": 8522914
+  },
+  {
+    "Top": 90.0,
+    "name": "Battlefield\u21222042",
+    "current_players": 7641,
+    "peak_players": 18363,
+    "hours_played": 5653389
+  },
+  {
+    "Top": 91.0,
+    "name": "SCUM",
+    "current_players": 7615,
+    "peak_players": 19180,
+    "hours_played": 7321909
+  },
+  {
+    "Top": 92.0,
+    "name": "SlaytheSpire",
+    "current_players": 7565,
+    "peak_players": 11835,
+    "hours_played": 6128096
+  },
+  {
+    "Top": 93.0,
+    "name": "AtomicHeart",
+    "current_players": 7415,
+    "peak_players": 37222,
+    "hours_played": 3432666
+  },
+  {
+    "Top": 94.0,
+    "name": "Battlefield1\u2122",
+    "current_players": 7289,
+    "peak_players": 18023,
+    "hours_played": 5477892
+  },
+  {
+    "Top": 95.0,
+    "name": "eFootball\u21222023",
+    "current_players": 7282,
+    "peak_players": 11106,
+    "hours_played": 4635142
+  },
+  {
+    "Top": 96.0,
+    "name": "WoLong:FallenDynastyDemo",
+    "current_players": 6908,
+    "peak_players": 21568,
+    "hours_played": 794426
+  },
+  {
+    "Top": 97.0,
+    "name": "Sekiro\u2122:ShadowsDieTwice",
+    "current_players": 6862,
+    "peak_players": 10574,
+    "hours_played": 4043708
+  },
+  {
+    "Top": 98.0,
+    "name": "OxygenNotIncluded",
+    "current_players": 6735,
+    "peak_players": 14590,
+    "hours_played": 5968899
+  },
+  {
+    "Top": 99.0,
+    "name": "FIFA22",
+    "current_players": 6557,
+    "peak_players": 19099,
+    "hours_played": 8171978
+  },
+  {
+    "Top": 100.0,
+    "name": "Arma3",
+    "current_players": 6529,
+    "peak_players": 24071,
+    "hours_played": 8626449
+  }
+]

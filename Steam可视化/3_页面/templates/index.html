@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到Steam</title>
+    <link rel="Shortcut Icon" href="..\static\images\favicon.ico" type="image/x-icon"/>
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/echarts.js"></script>
+    <script src="../static/js/js.js"></script>
+    <script src="../static/js/westeros.js"></script>
+    <script src="../static/js/world.js"></script>
+    <script src="../static/js/jquery.cxselect.min.js"></script>
+    <script src="../static/js/jquery.liMarquee.js"></script>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/loader.css">
+</head>
+<body>
+<div>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        <!--<div class="load_title">正在加载Steam数据<br><span>V1.0</span></div>-->
+    </div>
+    <header class="header">
+        <h1 class="text-light" style="margin-top: 25px;margin-left: 2%; margin-right: 4%;">
+            <a href="https://steamdb.info/"><span>Steam游戏平台<br/>数据可视化</span></a></h1>
+        <div class="weather" style="margin-top: 4%; margin-right: 4%;"><span id="showTime"></span>
+        </div>
+        <div id="menu" style="margin-top: 1%;">
+            <div class="menu_list" style="float:right">
+                <ul>
+                    <li class="current">热门在线玩家TOP图</li>
+                    <li>热门游戏销量TOP图</li>
+                    <li>热门游戏玩家流量图</li>
+                    <br/>
+                    <li>Steam热门游戏分类</li>
+                    <li>Steam 游戏轮播图</li>
+                    <li>Steam 全球流量图</li>
+                </ul>
+            </div>
+        </div>
+    </header><!-- 导航部分结束 -->
+    <div id="main">
+        <div style="background-color: #1A3751; margin: auto;">
+            <div class="item">
+                <div class="block">
+                    <div class="block_header">
+                        <div>热门在线玩家TOP图<span></span></div>
+                    </div>
+                </div>
+                <div class="echarts" id="echarts_1" style="height: 100vh;width:80vw"></div>
+            </div>
+            <div class="item">
+                <div class="block">
+                    <div class="block_header">
+                        <div>热门游戏销量TOP图<span></span></div>
+                    </div>
+                </div>
+                <div class="echarts" id="echarts_2_2" style="height: 30vh; width: 80vw;"></div>
+                <div class="echarts" id="echarts_2_1" style="height: 70vh; width: 80vw;"></div>
+            </div>
+            <div class="item">
+                <div class="block">
+                    <div class="block_header">
+                        <div>热门游戏玩家流量图<span></span></div>
+                    </div>
+                </div>
+                <div class="echarts" id="echarts_3" style="height: 100vh; width:80vw"></div>
+            </div>
+            <div class="item">
+                <div class="block">
+                    <div class="block_header">
+                        <div>Steam热门游戏分类<span></span></div>
+                    </div>
+                </div>
+                <div class="echarts" id="echarts_4" style="height: 100vh; width:80vw"></div>
+            </div>
+            <div class="item">
+                <div class="block">
+                    <div class="block_header">
+                        <div>Steam游戏轮播图 <span></span></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wraptit">
+                        <span>游戏名称</span><span>平台</span><span>年份</span><span>类型</span><span>发行人</span>
+                    </div>
+                    <div class="wrap">
+                        <ul id="cycle"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="block">
+                    <div class="block_header">
+                        <div>Steam 全球流量图 <span>（最近 7 天）</span></div>
+                    </div>
+                </div>
+                <div class="echarts" id="echarts_5" style="height: 100vh; width:80vw"></div>
+                <!--<div id="staticTrafficMap" style="width: 96%; margin: 0 auto;">
+                    <a href="https://media.st.dl.eccdnx.com/steam/publicstats/global_traffic.png?v=03-02-2023-07"><img
+                            src="https://media.st.dl.eccdnx.com/steam/publicstats/global_traffic.png?v=03-02-2023-07"
+                            width=99%/></a>
+                    <br/><br/>每个点代表的是最近 24 小时内，来自至少一名 Steam 用户的 Steam 下载活动情况。
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <a href="#">作者：Ji(可返回至顶部)</a>
+    </div>
+</div>
+<!--列表菜单-->
+<script>
+        //获取所有的li元素
+        var lis = document.querySelector(".menu_list").querySelectorAll("li");
+        //获取所有的item元素
+        var items = document.querySelectorAll(".item");
+        //循环给每个li绑定click事件
+        items[0].style.display = "block";
+        for (var i = 0; i < lis.length; i++) {
+            //给每个li元素添加index属性，第几个index为几
+            lis[i].setAttribute("index", i);
+            //给每个li绑定click事件，点击后出现以下事情
+            lis[i].onclick = function () {
+                //排他思想，将所有的标签样式都去掉
+                for (var j = 0; j < lis.length; j++) {
+                    lis[j].className = "";
+                }
+                //样式为空后，设置当前的样式为current
+                this.className = "current";
+                //获取当前所在li的index
+                var index = this.getAttribute("index");
+                //排他思想，将所有的item隐藏
+                for (var k = 0; k < items.length; k++) {
+                    //将所有的item设置为display:none
+                    items[k].style.display = "none";
+                }
+                //设置当前li下的对应的内容
+                items[index].style.display = "block";
+            }
+        }
+</script>
+<!--时间显示-->
+<script>
+    var t = null;
+    t = setTimeout(time); /*开始运行*/
+    function time() {
+        clearTimeout(t); /*清除定时器*/
+        dt = new Date();
+        var y = dt.getFullYear();
+        var mt = dt.getMonth() + 1;
+        var day = dt.getDate();
+        var h = dt.getHours();
+        var m = dt.getMinutes();
+        var s = dt.getSeconds();
+        document.getElementById("showTime").innerHTML = y + "年" + mt + "月" + day + "日" + h + "时" + m + "分" + s + "秒";
+        t = setTimeout(time);
+        }
+</script>
+<!--动态轮播-->
+<script type="text/javascript">
+	  function autoScroll(obj){
+			$(obj).find("ul").animate({
+				marginTop : "-39px"
+			},500,function(){
+				$(this).css({marginTop : "0px"}).find("li:first").appendTo(this);
+			})
+		}
+		$(function(){
+			setInterval('autoScroll(".wrap")',2000);
+		})
+</script>
+<!--轮播内容-->
+<script type="application/javascript">
+			$.getJSON("../data/Games_new.json", function(data) {
+				console.log(data);
+				var $cycle = $("#cycle");
+                //存储数据的变量
+				var strHtml = "";
+                //清空内容
+				$cycle.empty();
+                //将获取到的json格式数据遍历到div中
+				$.each(data, function(infoIndex, info) {
+					strHtml += "<li><p><span>"+ info['Name'] +
+					"</span><span>" + info['Platform'] +
+					"</span><span>" + info['Year'] +
+					"</span><span>" + info['Genre'] +
+					"</span><span>" + info['Publisher'] +
+					"</span></p></li>"
+				})
+                //显示处理后的数据
+				$cycle.html(strHtml);
+			})
+</script>
+<!--加载页面-->
+<script type="text/javascript">
+    // 等待所有加载
+    $(window).on("load", function() {
+        $('body').addClass('loaded').Chameleon({
+        'current_item':'overalls',
+        'json_url':'../../Data/Games_Sales_new.json',
+        'json_url':'../data/Games_new.json',
+        'json_url':'../../Data/Steam_top_new.json'
+    });
+        $('#loader-wrapper .load_title').remove();
+    });
+</script>
+</body>
+</html>
